@@ -70,6 +70,8 @@ fn handle_client(mut stream: TcpStream){
                 _ => (NOT_FOUND, "Not Found".to_string())  
             };
             stream.write_all(status_line.as_bytes()).unwrap();
+
+            /////////////// 10:30
         }
     }
 }
