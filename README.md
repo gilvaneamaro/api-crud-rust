@@ -62,6 +62,16 @@ The application supports the following CRUD operations:
 
 ### Example Request
 
+![image](https://github.com/user-attachments/assets/cb09e11f-3bb3-4c10-864e-451ff5ecea9b)
+
+![image](https://github.com/user-attachments/assets/b253244e-47dc-4123-86c0-14b6c910dc1f)
+
+![image](https://github.com/user-attachments/assets/a3ac7b55-6c1e-4d42-b315-ec3da5fce27c)
+
+![image](https://github.com/user-attachments/assets/788f08a5-b2ee-45af-a0ca-8d06b31e9122)
+
+![image](https://github.com/user-attachments/assets/8d96db11-9da3-4800-9a22-4f59a1ee1d7d)
+
 #### Create an Item
 
 ```sh
