@@ -187,11 +187,11 @@ fn set_database() -> Result<(), PosgresError> {
 
     //create table
     client.batch_execute(
-        "CREATE TABLE IF NOT EXISTS user(
-        id SERIAL PRIMARY KEY,
-        name VARCHAR NOT NULL,
-        email VARCHAR NOT NULL
-        )"
+        "CREATE TABLE IF NOT EXISTS users (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL
+);"
     )?;
     Ok(())
 }
